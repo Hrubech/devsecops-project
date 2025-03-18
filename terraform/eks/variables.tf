@@ -1,0 +1,12 @@
+variable "vpc_name" {}
+variable "igw_name" {}
+variable "rt_name_2" {}
+variable "subnet_name" {}
+variable "subnet_name_2" {}
+variable "security_group_name" {}
+variable "iam_role_eks" {}
+variable "iam_role_node" {}
+variable "iam_policy_eks" {}
+variable "iam_policy_node" {}
+variable "cluster_name" {}
+variable "eksnode_group_name" {}
