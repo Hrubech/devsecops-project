@@ -1,0 +1,8 @@
+vpc_name      = "devsecops-vpc"
+igw_name      = "devsecops-igw"
+subnet_name   = "jenkins-subnet"
+rt_name       = "jenkins-route-table"
+sg_name       = "jenkins-sg"
+instance_name = "jenkins-server"
+key_name      = "devsecops-key"
+iam_role      = "jenkins-iam-role"
