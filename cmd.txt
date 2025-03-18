@@ -54,3 +54,10 @@ aws --version
 trivy --version
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+* Configure AWS CLI (jenkins server)
+aws configure
+AWS Access Key ID [None]: YOUR_ACCESS_KEY_ID   # Change this
+AWS Secret Access Key [None]: YOUR_SECRET_ACCESS_KEY   # Change this
+Default region name [None]: us-east-1   # Set your aws default region
+Default output format [None]: json
