@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: hrubech/tetrisv2:1
+        image: hrubech/tetrisv2:2
         ports:
         - containerPort: 3000
 ---
