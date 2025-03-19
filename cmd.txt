@@ -93,3 +93,5 @@ Eclipse Temurin installer
 NodeJS
 OWASP Dependency-Check
 SonarQube Scanner
+
+terraform destroy -var-file=terraform.tfvars --auto-approve
