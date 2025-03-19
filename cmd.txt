@@ -62,6 +62,10 @@ AWS Secret Access Key [None]: YOUR_SECRET_ACCESS_KEY   # Change this
 Default region name [None]: us-east-1   # Set your aws default region
 Default output format [None]: json
 
+* Install plugins
+AWS Credentials
+Pipeline: AWS Steps
+
 * Configure EKS Cluster (jenkins Server)
 aws eks update-kubeconfig --region us-east-1 --name eks-cluster
 kubectl get nodes
@@ -78,3 +82,14 @@ export ARGOCD_SERVER=$(kubectl get svc argocd-server -n argocd -o json | jq --ra
 echo $ARGOCD_SERVER
 export ARGO_PWD=`kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d`
 echo $ARGO_PWD
+
+* Install plugins
+Docker
+Docker Commons
+Docker Pipeline
+Docker API
+docker-build-step
+Eclipse Temurin installer
+NodeJS
+OWASP Dependency-Check
+SonarQube Scanner
