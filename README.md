@@ -31,7 +31,6 @@ L'architecture suit un workflow DevSecOps sécurisé :
 - Un compte **AWS**
 - **Kubectl** installé
 - **Terraform** installé
-- **Helm** installé
 - **Jenkins** configuré avec les plugins nécessaires
 - **ArgoCD** installé sur le cluster
 - **Docker** et un registre d'images (Docker Hub, ECR...)
@@ -46,7 +45,7 @@ terraform apply -auto-approve
 ```
 ### 2️⃣ Configuration de Kubernetes et ArgoCD
 ```sh
-kubectl apply -f k8s/
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml
 kubectl get pods -n argocd
 ```
 ### 3️⃣ Mise en place du pipeline CI/CD
