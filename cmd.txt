@@ -95,3 +95,8 @@ OWASP Dependency-Check
 SonarQube Scanner
 
 terraform destroy -var-file=terraform.tfvars --auto-approve
+
+* Cleanup
+Delete both the created LoadBalancer manually
+eks-terraform-deploy pipeline > Build with Parameters > destroy > Build
+terraform destroy -var-file=terraform.tfvars --auto-approve
