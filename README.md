@@ -1,13 +1,8 @@
-# 🚀 Ultimate DevSecOps CI/CD Pipeline Project
+# 🚀 DevSecOps CI/CD Pipeline Project
 
-Ce projet met en place une **pipeline CI/CD complète** pour une application cloud-native, intégrant **Terraform, Kubernetes, Jenkins, ArgoCD, SonarQube et Trivy**. 
+Ce projet met en place une architecture **DevSecOps** complète sur **AWS EKS** en utilisant **Terraform** pour l'infrastructure, **Jenkins** pour l'automatisation CI/CD, **ArgoCD** pour le déploiement GitOps, ainsi que **Trivy** et **SonarQube** pour renforcer la sécurité et la qualité du code.
 
 ![Architecture Diagram](docs/architecture-diagram.png)
-
-# DevSecOps Kubernetes Project with AWS EKS, Terraform, Jenkins, and ArgoCD
-
-## 📌 Introduction
-Ce projet met en place une architecture **DevSecOps** complète sur **AWS EKS** en utilisant **Terraform** pour l'infrastructure, **Jenkins** pour l'automatisation CI/CD, **ArgoCD** pour le déploiement GitOps, ainsi que **Trivy** et **SonarQube** pour renforcer la sécurité et la qualité du code.
 
 ---
 ## 🚀 Technologies utilisées
@@ -18,7 +13,6 @@ Ce projet met en place une architecture **DevSecOps** complète sur **AWS EKS** 
 - **Trivy** : Analyse des vulnérabilités des conteneurs
 - **SonarQube** : Analyse statique du code pour la qualité et la sécurité
 - **Docker** : Conteneurisation des applications
-- **Helm** : Gestion des charts pour Kubernetes
 
 ---
 ## ⚙️ Architecture
@@ -84,7 +78,7 @@ Ce projet fournit une **chaîne DevSecOps complète** avec des contrôles de sé
 ## 📌 Améliorations futures
 - Intégration de **Prometheus & Grafana** pour la surveillance
 - Ajout de **GitLab CI/CD** comme alternative à Jenkins
-- Automatisation avancée avec **Terraform modules** et **ArgoCD App of Apps**
+- Automatisation avancée avec **Terraform modules**
 
 ---
 ## 🏆 Auteur
